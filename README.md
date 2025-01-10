@@ -1,2 +1,3 @@
 # SentimAI
-An emotionally intelligent chatbot using FAISS for vector search, Groq for conversational AI, and VADER for sentiment analysis. Implements embeddings with HuggingFace and ensures context-driven responses stored locally in FAISS.
+
+SentimAI is an innovative chatbot that redefines AI conversations by integrating emotional intelligence and advanced contextual understanding. Powered by FAISS for efficient vector search, Groq for state-of-the-art conversational AI, and VADER for sentiment analysis, SentimAI provides personalized, empathetic, and context-driven responses. This project leverages HuggingFace embeddings to ensure precise text representation and stores interactions locally for seamless context retention. Whether the sentiment is positive, negative, or neutral, SentimAI adapts its tone and style to mimic human-like conversations, creating a truly engaging and emotionally intelligent AI experience.
