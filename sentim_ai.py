@@ -77,7 +77,7 @@ def generate_response(user_message, sentiment, groq_model, vectorstore):
 
 # Initialize components
 vectorstore = init_faiss()
-api_key = "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" # API key for Groq
+api_key = "YOUR_API_KEY_FOR_GROQ" 
 groq_model = ChatGroq(temperature=0.3, groq_api_key=api_key, model_name="llama-3.3-70b-versatile")
 
 
