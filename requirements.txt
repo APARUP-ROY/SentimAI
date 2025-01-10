@@ -1,0 +1,8 @@
+vaderSentiment
+langchain-groq
+transformers
+langchain
+faiss-cpu
+sentence-transformers
+huggingface_hub
+langchain-community
