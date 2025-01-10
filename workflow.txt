@@ -1,0 +1,12 @@
+(1) User Interaction: The user enters a message into the interface.
+
+(2) Sentiment Analysis: The message is passed through the VADER Sentiment Analyzer, which determines the sentiment of the message.
+
+(3) Message Storage: The user message, along with metadata (e.g., sentiment, timestamp), is stored in the FAISS vector store.
+
+(4) Response Generation: The AI generates a response based on the sentiment analysis and the retrieved context from FAISS using the Groq model.
+The response is adjusted according to the tone based on the sentiment.
+
+(5) AI Response Delivery: The response is delivered to the user.
+
+(6) Message Persistence: The updated vector store is saved locally to maintain context and improve future responses.
